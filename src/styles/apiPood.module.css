@@ -1,0 +1,39 @@
+.apod{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+}
+
+.imgIpod{
+    width: 25%;
+    height: 25%;
+    margin: 20px;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.desc{
+    margin: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 400px;
+    height: 80%;
+}
+
+@media(max-width: 540px){
+    .apod{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 230px);
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .imgIpod{
+        width: 100%;
+        height: auto;
+    }
+    .desc{
+        max-width: 100%;
+    }
+}
+
