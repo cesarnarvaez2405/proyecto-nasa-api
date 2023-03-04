@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+.ipodDetalles {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background: rgba(255, 255, 255, 0.55);
+    -webkit-backdrop-filter: blur(19px);
+    backdrop-filter: blur(19px);
+    border: 1px solid rgba(255, 255, 255, 0.275);
+    margin: 100px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0 8.5px 9.5px -2px #0f0505;
+    -moz-box-shadow: 0 8.5px 9.5px -2px #0f0505;
+    box-shadow: 0 8.5px 9.5px -2px #0f0505;
+}
+
+.contenerImgTitle {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imgIpodDetalles {
+    border-radius: 20px;
+    width: 50%;
+    height: 50%;
+}
+
+.col {
+    max-width: 1080px;
+    margin: 10px;
+    height: auto;
+
+}
+
+.explicacionIpodDetalles{
+   max-width: 700px;
+    text-align: justify;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}

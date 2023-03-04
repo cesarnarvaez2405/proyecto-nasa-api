@@ -8,6 +8,8 @@ import {
 } from "react-router-dom";
 import { ApiApod } from './apiApod';
 import '../styles/style.css'
+import { ListadosApod } from './listadosApod';
+import { IpodDetalles } from './ipodDetalles';
 
 export const Home = () => {
 
@@ -24,10 +26,11 @@ export const Home = () => {
         <div>
 
           <Switch>
-            <Route path="/23">
+            <Route path="/apod/date/:ipodDate">
+              <IpodDetalles/>
             </Route>
             <Route path="/">
-              <ApiApod />
+              <ListadosApod />
             </Route>
           </Switch>
 

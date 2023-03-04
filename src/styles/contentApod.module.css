@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.contentApod {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    background: rgba(183, 165, 216, 0.5);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    border: 1px solid rgba(183, 165, 216, 0.25);
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-box-shadow: 0 8.5px 9.5px -2px #0f0505;
+    -moz-box-shadow: 0 8.5px 9.5px -2px #0f0505;
+    box-shadow: 0 8.5px 9.5px -2px #0f0505;
+    text-decoration: none;
+    transition: opacity .3s;
+
+}
+
+.contentApod:hover{
+    opacity: 0.7;
+}
+
+.imgApod {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.tituloApod{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+
+}

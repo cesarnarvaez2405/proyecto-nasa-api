@@ -6,10 +6,11 @@ const apiKey = import.meta.env.VITE_BACKEND_API_TOKEN;
 export const get = (path) => {
     return (
 
-        fetch(API + path + apiKey).then(result => result.json())
+        fetch(API + path + apiKey ).then(result => result.json())
 
     )
 }
+
 
 
 // export const get = (path) => {

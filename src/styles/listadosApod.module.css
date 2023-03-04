@@ -1,0 +1,16 @@
+.listadosApod{
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+
+}
+
+@media(max-width:560px){
+    .listadosApod{
+
+        grid-template-columns:100%;
+        
+    }
+}
