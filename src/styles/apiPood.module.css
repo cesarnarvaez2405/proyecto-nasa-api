@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+
+
 .apod{
     display: flex;
-    padding: 40px;
     justify-content: center;
+
 }
 
 .imgIpod{
@@ -35,5 +39,16 @@
     .desc{
         max-width: 100%;
     }
+}
+
+.notaDia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleDia{
+     font-family: 'Inconsolata', monospace;
+     color: white;
 }
 

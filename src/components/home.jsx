@@ -20,7 +20,6 @@ export const Home = () => {
 
         <header>
           <Link to="/" className='tituloApi'><h1>Api nasa</h1></Link>
-          <p className= 'DescripcionApi'>Contenido que se actualiza cada dia con una nueva noticia por parte de la <a className='Nasa'>NASA</a></p>
         </header>
 
         <div>

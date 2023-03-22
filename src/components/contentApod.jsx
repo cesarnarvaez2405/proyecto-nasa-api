@@ -7,7 +7,7 @@ export const ContentApod = ({ apod }) => {
     <>
 
       <li className={style.contentApod}>
-        <Link to={"/apod/date/" + apod.date}>
+        <Link to={"/apod/date/" + apod.date} className={style.noDecoration}>
           <h1 className={style.tituloApod}>{apod.title}</h1>
           <img src={apod.url} alt={apod.title} className={style.imgApod} />
           <h1 className={style.tituloApod}>{apod.date}</h1>
